@@ -1,5 +1,5 @@
+using Catlab
 using Catlab.Graphics: Graphviz
-
 # organism layer - composed from lower levels
 include(joinpath(@__DIR__,"common.jl"))
 include(joinpath(@__DIR__, "thermolayer.jl"))
